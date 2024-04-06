@@ -16,7 +16,7 @@ export default function SettingsScreen({ navigation }) {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <View>
-        <TouchableOpacity style={styles.Chatbutton} onPress={() => navigation.navigate('Account')}>
+        <TouchableOpacity style={styles.Chatbutton} >
         <View style={styles.initialsContainer}>
           <View style={styles.initialsBox}>
             <Text style={styles.initialsText}>AN</Text>
@@ -35,14 +35,14 @@ export default function SettingsScreen({ navigation }) {
       </View>
 
       <View>
-        <TouchableOpacity style={styles.Chatbutton} onPress={() => navigation.navigate('Account')}>
+        <TouchableOpacity style={styles.Chatbutton} >
           <Text style={styles.buttonText}>Clear History</Text>
           <MaterialCommunityIcons name="chevron-right" size={30} color="black" style={styles.arrowIcon} />
         </TouchableOpacity>
       </View>
 
       <View>
-        <TouchableOpacity style={styles.Chatbutton} onPress={() => navigation.navigate('Account')}>
+        <TouchableOpacity style={styles.Chatbutton} >
           <Text style={styles.buttonText}>Contact Us</Text>
           <MaterialCommunityIcons name="chevron-right" size={30} color="black" style={styles.arrowIcon} />
         </TouchableOpacity>
@@ -56,7 +56,7 @@ export default function SettingsScreen({ navigation }) {
       </View>
 
       <View>
-        <TouchableOpacity style={styles.Chatbutton} onPress={() => navigation.navigate('Account')}>
+        <TouchableOpacity style={styles.Chatbutton} >
           <Text style={styles.DeletebuttonText}>Delete your account</Text>
           <MaterialCommunityIcons name="chevron-right" size={30} color="black" style={styles.arrowIcon} />
         </TouchableOpacity>

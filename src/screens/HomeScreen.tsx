@@ -38,7 +38,7 @@ export default function HomeScreen({navigation}){
                         image: (
                             <View style={styles.imageContainer}>
                                 <Image source={require('../assets/images/misc/image_Chatbot.png')} style={styles.lottie}/>
-                                <TouchableOpacity style={styles.Chatbutton} onPress={() => navigation.navigate('Camera')}>
+                                <TouchableOpacity style={styles.Chatbutton} onPress={() => navigation.navigate('Chatbot')}>
                                 <MaterialCommunityIcons name="robot" size={30} color="white" />
                                 <Text style={styles.buttonText}>Nutri Guide</Text>
                                 </TouchableOpacity>
